@@ -83,7 +83,7 @@ main{
 }
 h2{ 
   margin-bottom:12px; 
-  color: white; 
+  color: var(--brand); 
 }
 .btn{ 
   display:inline-block; 
@@ -335,4 +335,5 @@ body.dark-mode select, body.dark-mode input {           background:#0f1114;
     padding: 12px; 
   }
 }
+
 
