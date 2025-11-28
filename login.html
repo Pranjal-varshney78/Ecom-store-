@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login | EcomStore</title>
+  <link rel="stylesheet" href="store.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-brand">
+      <a href="index.html"><img src="Varshneylogo.jpg" alt="Pro-EcomStore" class="logo-image"></a>
+      <h1>EcomStore</h1>
+    </div>
+    <nav class="site-nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="shop.html" class="nav-link">Shop</a>
+      <a href="cart.html" class="nav-link">🛒 Cart</a>
+      <a href="login.html" class="nav-link active">👤 Login</a>
+      <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">🌙</button>
+    </nav>
+  </header>
+
+  <main class="login-main">
+    <div class="login-card">
+      <h2>Sign In</h2>
+
+      <form id="login-form" class="login-form" aria-label="Login form">
+        <label for="login-username">Username</label>
+        <input id="login-username" type="text" autocomplete="username" required />
+
+        <label for="login-password">Password</label>
+        <input id="login-password" type="password" autocomplete="current-password" required />
+
+        <button type="submit" class="btn primary">Login</button>
+      </form>
+
+      <div class="test-account">
+        <p><strong>Test account</strong></p>
+        <p>Username: <code>testuser</code> • Password: <code>12345</code></p>
+      </div>
+
+      <p id="login-msg" class="login-msg" role="status"></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 EcomStore</p>
+  </footer>
+
+  <script src="store.js"></script>
+</body>
+</html>
